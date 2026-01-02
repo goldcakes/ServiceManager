@@ -1,8 +1,19 @@
 <!-- * * * * * * * * * * * * * Start of Project * * * * * * * * * * * * * * * * * * -->
-<h2>World</h2>
+<div class="header">
+    <nav>
+        <img [src]="imagePath">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">My Requests</a></li>
+            <li><a href="#">My Work</a></li>
+            <li><a href="#">Team Work</a></li>
+            <li><a href="#">All Work</a></li>
+        </ul>
+    </nav>
+</div>
+
 <app-home-page></app-home-page>
 
-<!-- * * * * * * * * * * * * * End of Project * * * * * * * * * * * * * * * * * * * -->
-
+<!-- Do not delete below -->
 
 <router-outlet />

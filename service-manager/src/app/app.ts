@@ -10,4 +10,6 @@ import { HomePage } from "./home-page/home-page";
 })
 export class App {
   protected readonly title = signal('service-manager');
+
+  imagePath: string = "images/header/Angular_gradient_logo.png";
 }
