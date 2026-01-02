@@ -4,6 +4,7 @@ import { MyRequests } from './pages/my-requests/my-requests';
 import { AllWork } from './pages/all-work/all-work';
 import { TeamWork } from './pages/team-work/team-work';
 import { MyWork } from './pages/my-work/my-work';
+import { NotFound } from './pages/not-found/not-found';
 
 export const routes: Routes = [
     {
@@ -31,4 +32,8 @@ export const routes: Routes = [
         path:'all-work',
         component: AllWork
     },
+    {
+        path: '**',
+        component:NotFound
+    }
 ];
